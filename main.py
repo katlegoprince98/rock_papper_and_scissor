@@ -31,11 +31,6 @@ comp = random.randint(1,3)
 user = int(input("What do you choose, 1-for rock, 2-papper and 3-scissors"))
 game_imga = [rock, paper, scissors]
 
-if user > 2 or user < 0:
-   print("Invalid choice")
-else:
-   print(game_imga[user])
-   
 
 if user == 0 and comp == 2:
   print(f"You chose {user} and the computer chose {comp}")
